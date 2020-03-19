@@ -1,6 +1,6 @@
 # Script to check the string has balanced usage of parenthesis. 
 
-from stacks import Stack
+from stacks import Stack   # Refer to stacks.py here. 
 
 def is_match(a,b):
 	if a == "(" and b == ")":
