@@ -11,11 +11,11 @@ def large(arr):
 			max = i
 			largest[c] = i
 			c +=1
-	return di
+	return largest	
 
 
 arr = [65, 757, 95, 100, 45, 678, 999, 1010]
-largest = large(arr)
-print(largest)
-length = len(largest)-2
-print(largest[length])
+largst = large(arr)
+print(largst)
+length = len(largst)-2
+print(largst[length])
