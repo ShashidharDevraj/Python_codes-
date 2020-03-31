@@ -5,7 +5,7 @@
 
 # Output = "corona is going wild 31.3.2020"
 
-with open("test.txt") as f:
+with open("rearrange.txt") as f:
 	for words in f.readlines():
 		arr = words.split()
 		# print(arr)
